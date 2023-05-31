@@ -34,7 +34,7 @@
         <h2>Logo</h2>
         <p>Passando o mouse por cima, logo expande.</p>
     </li>
-    <img src="img/read7.png" style="width: 600px">a
+    <img src="img/read7.png" style="width: 600px">
     <li>
         <h2>Imagens</h2>
         <p>Passando o mouse por cima, imagem expande.</p>
