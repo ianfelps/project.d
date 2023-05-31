@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #000000;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cabecalho-imagem {
+    height: 175px;
+}
+
+.cabecalho-imagem:hover {
+    height: 185px;
+    transition: 0.5s;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cabecalho-menu-item {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #bbbcbe;
+}
+
+.cabecalho-menu-item:hover {
+    color: #e20613;
+    transition: 0.3s;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-titulo {
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 300px;
+}
+
+.conteudo-titulo-imagem {
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 30px 100px;
+}
+
+.conteudo-formulario {
+    font-weight: 600;
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 300px;
+    gap: 10px;
+}
+
+.conteudo-formulario-label {
+    color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo-formulario-input {
+    border: 1px solid #bbbcbe;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.conteudo-formulario-mensagem {
+    resize: unset;
+    margin: 5px;
+    width: 400px;
+}
+
+.conteudo-formulario-botao {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px 20px;
+}
+
+.conteudo-formulario-botao:hover {
+    background: #bbbcbe;
+}
