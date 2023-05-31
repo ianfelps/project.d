@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/contato.css">
+    <link rel="icon" type="ico" href="img/icon.ico">
+    <meta name="description" content="Página de contato do Project D.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Ian Felipe">
+    <title>Project D - Contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img class="cabecalho-imagem" src="img/logo.jpeg" alt="Logo Project D"></a>
+        <div class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Home</a>
+            <a class="cabecalho-menu-item" href="galeria.html">Galeria</a>
+            <a class="cabecalho-menu-item" href="blog.html">Notícias</a>
+            <a class="cabecalho-menu-item" href="contato.html">Contato</a>
+        </div>
+    </header>
+    <main class="conteudo">
+        <div class="conteudo-titulo">
+            <h3 class="conteudo-titulo-frase">Entre em Contato</h3>
+            <a href="#"><img class="conteudo-titulo-imagem" src="img/cont.jpg" alt="Project D em preparação."></a>
+        </div>
+        <form class="conteudo-formulario" action="#">
+            <div class="conteudo-formulario-box">
+                <label class="conteudo-formulario-label" for="nome">Nome</label><br>
+                <input class="conteudo-formulario-input" type="text" id="nomeid" placeholder="Nome" required="required" name="nome"><br>
+                <label class="conteudo-formulario-label" for="sobrenome">Sobrenome</label><br>
+                <input class="conteudo-formulario-input" type="text" id="sobrenomeid" placeholder="Sobrenome" required="required" name="sobrenome"><br>
+            </div>
+            <div class="conteudo-formulario-box">
+                <label class="conteudo-formulario-label" for="email">E-mail</label><br>
+                <input class="conteudo-formulario-input" type="email" id="emailid" placeholder="E-mail" name="email"><br>
+                <label class="conteudo-formulario-label" for="telefone">Telefone</label><br>
+                <input class="conteudo-formulario-input" type="tel" id="telefoneid" placeholder="Telefone" name="telefone"><br>
+            </div>
+            <div class="conteudo-formulario-box">
+                <label class="conteudo-formulario-label" for="mensagem">Mensagem</label><br>
+                <textarea class="conteudo-formulario-mensagem" name="mensagem" placeholder="Mensagem" cols="30" rows="10"></textarea><br>
+                <input class="conteudo-formulario-botao" type="submit" value="Enviar"><br>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
